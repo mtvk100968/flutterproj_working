@@ -6,14 +6,14 @@ void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  static const String _title = 'Sample App';
+  static const String title = 'Sample App';
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
        home: Scaffold(
         appBar: PreferredSize(
-          preferredSize: Size.fromHeight(200),
+          preferredSize: Size.fromHeight(50),
           child: AppBar(
             centerTitle: true,
             flexibleSpace: ClipRRect(
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
              ),
             ),
             title: Text(
-            "App Bar",
+            "landandplot",
             style: TextStyle(
                 color: Colors.black, fontWeight: FontWeight.bold, fontSize: 25),
             ),
